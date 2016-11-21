@@ -72,12 +72,12 @@ body {
 li.subtitle:hover,
 .sidebar-nav .title a:hover {
 	text-decoration: none;
-	background-color: inherit;
+	background-color: #2980b9;
 }
 
 li.subtitle {
 	color: white;
-	background-color: inherit;
+	background-color: #2980b9;
 	height: auto;
 	text-align: center;
 
