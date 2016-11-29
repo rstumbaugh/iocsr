@@ -74,7 +74,19 @@ body {
 .header-item .title h3,
 .header-item .title h6 {
 	margin: 0;
+	padding: 10px 0 10px 15px;
 }
+
+.header-item .title h1 {
+	font-size: 36px;
+	padding: 20px;
+}
+
+.header-item .title h6 {
+	font-size: 16px;
+	padding: 0 0 20px 20px;
+}
+
 
 #header1 {
 	background-image: url(../img/header1.jpg);
@@ -84,10 +96,10 @@ body {
 }
 
 #header2 {
-	background-image: url(../img/header1.jpg);
+	background-image: url(../img/header2.jpg);
     background-repeat: no-repeat;
     
-	height: 325px;
+	height: 275px;
 }
 
 #header3 {
@@ -98,7 +110,10 @@ body {
 }
 
 .header-item-wrap:first-child .title {
-	background-color: gray;
+	background-image: url(../img/headerbg.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center top;
 	color: white;
 }
 
