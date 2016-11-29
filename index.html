@@ -23,7 +23,7 @@
 				<div class="col-sm-12">
 					<div class="row">
 						<div class="col-sm-6 header-item-wrap">
-							<div class="item header-item">
+							<div id="intro" class="item header-item">
 								<div id="header1" class="top"></div>
 								<div class="title">
 									<h1>How to write an introduction</h1>
@@ -31,7 +31,7 @@
 								</div>
 							</div>
 						</div>
-						<div class="col-sm-3 header-item-wrap">
+						<div id="class_sessions" class="col-sm-3 header-item-wrap">
 							<div class="item header-item">
 								<div id="header2" class="top"></div>
 								<div class="title">
@@ -41,7 +41,7 @@
 								</div>
 							</div>
 						</div>
-						<div class="col-sm-3 header-item-wrap">
+						<div id="personal_brand" class="col-sm-3 header-item-wrap">
 							<div class="item header-item">
 								<div id="header3" class="top"></div>
 								<div class="title">
@@ -59,24 +59,24 @@
 			<div class="wrap">
 				<div class="col-sm-4 col-md-3 col-lg-2">
 					<div class="item-wrap">
-						<div class="item">
-							<div id="item1" class="top"></div>
+						<div id="assignments" class="item">
+							<div class="top"></div>
 							<h4>What it takes to pass CPBE225</h4>
 						</div>
 					</div>
 				</div>
 				<div class="col-sm-4 col-md-3 col-lg-2">
 					<div class="item-wrap">
-						<div class="item">
-							<div id="item2" class="top"></div>
+						<div id="speakers" class="item">
+							<div class="top"></div>
 							<h4>What can we learn from guest speakers?</h4>
 						</div>
 					</div>
 				</div>
 				<div class="col-sm-4 col-md-3 col-lg-2">
 					<div class="item-wrap">
-						<div class="item">
-							<div id="item3" class="top"></div>
+						<div id="iliad" class="item">
+							<div class="top"></div>
 							<h4>The impact of the Iliad Assessment</h4>
 						</div>
 					</div>
@@ -84,8 +84,8 @@
 				<div class="clearfix visible-sm"></div>
 				<div class="col-sm-4 col-md-3 col-lg-2">
 					<div class="item-wrap">
-						<div class="item">
-							<div id="item4" class="top"></div>
+						<div id="everest" class="item">
+							<div class="top"></div>
 							<h4>The Everest Simulation</h4>
 						</div>
 					</div>
@@ -93,16 +93,16 @@
 				<div class="clearfix visible-md"></div>
 				<div class="col-sm-4 col-md-3 col-lg-2">
 					<div class="item-wrap">
-						<div class="item">
-							<div id="item5" class="top"></div>
+						<div id="carnegie" class="item">
+							<div class="top"></div>
 							<h4>Dale Carnegie Actions</h4>
 						</div>
 					</div>
 				</div>
 				<div class="col-sm-4 col-md-3 col-lg-2">
 					<div class="item-wrap">
-						<div class="item">
-							<div id="item6" class="top"></div>
+						<div id="reflect" class="item">
+							<div class="top"></div>
 							<h4>REFLECT Action Plan</h4>
 						</div>
 					</div>
@@ -110,16 +110,16 @@
 				<div class="clearfix visible-sm visible-lg"></div>
 				<div class="col-sm-4 col-md-3 col-lg-2">
 					<div class="item-wrap">
-						<div class="item">
-							<div id="item1" class="top"></div>
+						<div id="ted_talks" class="item">
+							<div class="top"></div>
 							<h4>TED Talks</h4>
 						</div>
 					</div>
 				</div>
 				<div class="col-sm-4 col-md-3 col-lg-2">
 					<div class="item-wrap">
-						<div class="item">
-							<div id="item2" class="top"></div>
+						<div id="linkedin" class="item">
+							<div class="top"></div>
 							<h4>How to improve your LinkedIn</h4>
 						</div>
 					</div>
@@ -127,8 +127,8 @@
 				<div class="clearfix visible-md"></div>
 				<div class="col-sm-4 col-md-3 col-lg-2">
 					<div class="item-wrap">
-						<div class="item">
-							<div id="item3" class="top"></div>
+						<div id="elevator_pitch" class="item">
+							<div class="top"></div>
 							<h4>What a great elevator pitch looks like</h4>
 						</div>
 					</div>
@@ -136,24 +136,24 @@
 				<div class="clearfix visible-sm"></div>
 				<div class="col-sm-4 col-md-3 col-lg-2">
 					<div class="item-wrap">
-						<div class="item">
-							<div id="item4" class="top"></div>
+						<div id="mock_interview" class="item">
+							<div class="top"></div>
 							<h4>Why you should do a mock interview</h4>
 						</div>
 					</div>
 				</div>
 				<div class="col-sm-4 col-md-3 col-lg-2">
 					<div class="item-wrap">
-						<div class="item">
-							<div id="item5" class="top"></div>
+						<div id="growth" class="item">
+							<div class="top"></div>
 							<h4>Personal growth</h4>
 						</div>
 					</div>
 				</div>
 				<div class="col-sm-4 col-md-3 col-lg-2">
 					<div class="item-wrap">
-						<div class="item">
-							<div id="item6" class="top"></div>
+						<div id="synthesis" class="item">
+							<div class="top"></div>
 							<h4>Putting it all together</h4>
 						</div>
 					</div>
@@ -164,6 +164,10 @@
 		<script src="js/jquery.min.js"></script>
 		<script src="js/bootstrap.min.js"></script>
 		<script src="js/sections.js"></script>
-		<script src="js/script.js"></script>
+		<script>
+			$(".item").on("click", function() {
+				window.location = "content.html?section=" + $(this).attr("id");
+			});
+		</script>
 	</body>
 </html>
