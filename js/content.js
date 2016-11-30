@@ -41,7 +41,7 @@ $(document).ready(function() {
 
 		$("<br/>").appendTo($content);
 
-		var $a = $("<a/>", {"href": "index.html", "style": "font-size:18px;padding-top:15px"})
+		var $a = $("<a/>", {"href": "index.html", "style": "font-size:18px;padding-top:15px;padding-bottom:30px"})
 		$a.text("Back to home page");
 
 		$a.appendTo($content);

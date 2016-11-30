@@ -15,8 +15,7 @@ When looking at a large list of values in the value inventory, I was originally 
 			<li>Loyalty</li>
 			<li>Responsibility</ul>
 		</td>
-	
-	
+
 		<td>
 			<ul>
 			<li>Personal Development</li>
