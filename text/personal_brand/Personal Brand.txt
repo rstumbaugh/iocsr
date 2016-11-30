@@ -1,3 +1,6 @@
+<h3>Deliverable</h3>
+<a href="personal%20brand.pdf" target="_blank">Here</a> is a link to the graphic for my Personal Brand.
+
 <h3>What is your purpose in life?</h3><br>
 My purpose in life is to live ambitiously, aggressively, and creatively for myself and for the people I love and care about.<br>
 <br>
@@ -45,5 +48,4 @@ In 20 years, I hope to be a business analyst at a large financial company, perha
 <br>
 <h3>What differentiates you from your competition for this career?</h3><br>
 Looking at my values and competencies, I feel my drive and resilience set me apart from the competition. As I mentioned before, to be a software developer, you must always be willing to learn. I have a passion for what I do and I am motivated to keep learning more and always work hard. I feel that a real passion for software development is difficult to come by in the field, and I believe this differentiates me from the competition.<br>
-<br>
 <br>
