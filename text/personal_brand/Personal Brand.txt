@@ -1,0 +1,49 @@
+<h3>What is your purpose in life?</h3><br>
+My purpose in life is to live ambitiously, aggressively, and creatively for myself and for the people I love and care about.<br>
+<br>
+<h3>What are your key values?</h3><br>
+When looking at a large list of values in the value inventory, I was originally overwhelmed with the number of values. It was difficult to really pinpoint which were simply values that I felt were important and which were really my key defining values. After narrowing down the list, I came up with a list of my key values:<br/>
+<table>
+	<tr>
+		<td>
+			<ul>
+			<li>Balance</li>
+			<li>Family happiness</li>
+			<li>Loyalty</li>
+			<li>Responsibility</ul>
+		</td>
+	
+	
+		<td>
+			<ul>
+			<li>Personal Development</li>
+			<li>Tolerance</li>
+			<li>Wisdom</li>
+		</td>
+	</tr>
+</table>
+<br>
+<h3>What are your competencies?</h3><br>
+My key competencies are <u>determination</u>, <u>self-motivation</u>, <u>resourcefulness</u>, and <u>resilience</u>. After reading multiple articles on how to identify your key competencies on <a href=”personalbrandingblog.com”>personalbrandingblog.com</a>, it was easy to identify what really separates me from others and what I feel my strongest areas are.<br>
+<br>
+<h3>What are your key weaknesses?</h3><br>
+The main weakness I have noticed the most is how easily I get flustered. I do not perform well under pressure, and this stems from the fact that I tend to <u>overanalyze</u> situations rather than being able to think quickly and make snap decisions when necessary. <u>Procrastination</u> is certainly another key weakness of mine that I have been trying to overcome. Finally, I would say that I’m <u>not very bold</u> most times and tend to stay inside my comfort zone.<br>
+<br>
+<h3>How do others describe you?</h3><br>
+Based off of my 360Reach feedback, others describe me as intelligent, likeable, driven and problem-oriented. By problem-oriented, I mean I work best when I am given a problem to solve. In addition, others described me as a bit introverted, risk-averse, and not openly honest. They described me as a hard worker who is loyal and dependable, but also not much of a leader.<br>
+<br>
+<h3>Evaluate the difference between how you describe yourself and how others describe you.</h3><br>
+Looking at the responses from others about myself, I am not very surprised at what most people said. I felt I was pretty spot-on with my description of myself and how others would describe me. I agree with many of the strengths and weaknesses that people have said about me, especially regarding my weaknesses. I tend to harp on negative things for a while, and for this reason I often prefer to stay within my comfort zone. This can manifest itself as being a bit introverted, conflict-averse, and risk-averse, which my respondents had commented. I feel I got a good range of respondents, some who I have known for years and years and other who I have not known as long. Based off of the responses from others, I would say I’m fairly self-aware and conscious of my strengths and weaknesses.<br>
+<br>
+<h3>What is your style?</h3><br>
+My style is generally easygoing, humorous, and positive. I am often not the most straightforward person, and I am fairly averse to conflict. However, I am very resilient and try to maintain a positive attitude at all times.<br>
+<br>
+<h3>What are your career goals… 3 years? 5 years? 20 years?</h3><br>
+In the short term (3-5 years), I hope to be working as a software developer for a large company. My first job or two I would like to get exposure to the different areas of the computer science industry, maybe with an interest in business or data analytics in around 5 years. I have been programming independently for the last 5 years thanks to my motivation and drive, and I don’t plan to stop working hard any time soon. The business of programming requires me to be constantly learning and never becoming complacent, which I am completely okay with.<br>
+<br>
+In 20 years, I hope to be a business analyst at a large financial company, perhaps in New York. I am fascinated by statistics and numbers, but don’t have much exposure just yet to get into the scene. Perhaps I could go back to school and eventually become a quant at a large investment bank. I am not entirely sure of the exact direction my life is headed, but all I know is that I am ready to work tirelessly to continue learning and achieve my goals.<br>
+<br>
+<h3>What differentiates you from your competition for this career?</h3><br>
+Looking at my values and competencies, I feel my drive and resilience set me apart from the competition. As I mentioned before, to be a software developer, you must always be willing to learn. I have a passion for what I do and I am motivated to keep learning more and always work hard. I feel that a real passion for software development is difficult to come by in the field, and I believe this differentiates me from the competition.<br>
+<br>
+<br>

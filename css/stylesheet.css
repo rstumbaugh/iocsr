@@ -4,109 +4,205 @@ body {
 	padding: 0;
 	width: 100%;
 	height: 100%;
+
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+	background-color: #F0F0F0;
 }
 
-.row,
-.container {
-	padding: 0;
-	margin: 0;
-}
 
-.container,
-.parent-row {
-	height: 100%;
-}
-
-.sidebar-wrapper {
-	background-color: #3498DB;
-
-	color: white;
+.header {
+	background-image: linear-gradient(159deg, rgba(0 , 0 , 0, .9), rgba(0, 0, 0, .2) 20rem),url(../img/bg.png);
+	background-size: cover;
 	position: absolute;
-	left: 5%;
 	width: 100%;
-	height: 100%;
-
+	height: 600px;
 }
 
-.sidebar-nav,
-.sidebar-nav ul {
-	list-style-type: none;
-	padding: 0;
-	margin: 0;
-}
+.navigation {
+	position: relative;
+	width: 100%;
+	height: 54px;
+	z-index: 10;
 
-.sidebar-nav li {
-	height: 35px;
-	line-height: 35px;
-	background-color: inherit;
-	padding: 0 0 0 5px;
-
-	font-family: "Lato", sans-serif;
-	font-size: 16px;
-	border-top: 1px solid #2980b9;
-
-}
-
-.sidebar-nav li ul {
-	background-color: #2980b9;
+	background-color: rgba(0,0,0,0.2);
 	color: white;
+	line-height: 50px;
 }
 
-.sidebar-nav .title {
-	background-color: inherit;
-	color: white;
-	font-family: "Arvo", serif;
-	font-weight: 700;
-	line-height: 75px;
-	height: 75px;
-	font-size: 75px;
-	margin-top: 25px;
-	text-align: center;
-	border: none;
+.navigation .logo {
+	font-weight: 900;
+	font-size: 32px;
+	color: #e62b1e;
+	padding-left: 10px;
+	padding-right: 15px;
 }
 
-.sidebar-nav .title a {
-	color: white;
-}
-
-li.subtitle:hover,
-.sidebar-nav .title a:hover {
+.navigation a:hover {
 	text-decoration: none;
-	background-color: #2980b9;
 }
 
-li.subtitle {
+.navigation .tagline {
+	font-weight: 200;
+	font-size: 24px;
+}
+
+.wrap {
+	padding-left: 40px;
+	padding-right: 40px;
+}
+
+.header-item-wrap {
+	padding-left: 12px;
+	padding-right: 12px;
+}
+
+.header-item {
+	position: relative;
+	margin-top: 90px;
+}
+
+.header-item .top {
+	background-size: cover;
+}
+
+.header-item .title {
+	color: black;
+	background-color: white;
+}
+
+.header-item .title h1,
+.header-item .title h3,
+.header-item .title h6 {
+	margin: 0;
+	padding: 10px 10px 10px 15px;
+}
+
+.header-item .title p {
+	margin: 0;
+	padding: 0 15px 15px 15px;
+}
+
+.header-item .title h1 {
+	font-size: 36px;
+	padding: 20px;
+}
+
+.header-item .title h6 {
+	font-size: 16px;
+	padding: 0 0 20px 20px;
+}
+
+
+#header1 {
+	background-image: url(../img/introduction.jpg);
+    background-repeat: no-repeat;
+    
+	height: 425px;
+}
+
+#header2 {
+	background-image: url(../img/class_sessions.jpg);
+    background-repeat: no-repeat;
+    
+	height: 250px;
+}
+
+#header3 {
+	background-image: url(../img/personal_brand.jpg);
+    background-repeat: no-repeat;
+    
+	height: 200px;
+}
+
+.header-item-wrap:first-child .title {
+	background-image: url(../img/headerbg.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center top;
 	color: white;
-	background-color: #2980b9;
-	height: auto;
-	text-align: center;
-
-	margin-bottom: 25px;
-	border: none;
 }
 
-li.subtitle:hover {
-	cursor: default;
+.other-items {
+	padding-bottom: 50px;
+}
+
+.other-items .wrap > div {
+	padding-top: 50px;
 }
 
 
-.sidebar-nav li.active,
-.sidebar-nav li:hover {
-	background-color: #2980b9;
-	color: white;
+.other-items .item-wrap {
+	border-bottom: 3px solid #BDC3C7;
+	background-color: white;
+
+}
+
+
+.item:hover {
 	cursor: pointer;
 }
 
-.sidebar-nav li ul li.active,
-.sidebar-nav li ul li:hover {
-	background-color: #3498DB;
+.other-items .item-wrap .top {
+	height: 110px;
+	background-repeat: no-repeat;
+	background-size: cover;
 }
 
-.sidebar-nav a,
-.sidebar-nav a:hover {
+.other-items .item-wrap h4 {
+	margin: 0;
+	padding: 10px;
+}
+
+
+/* CONTENT PAGE */
+.content-header .navigation {
+	background-color: white;
+	color: black;
+}
+.content-header .row div {
+	height: 400px;
+}
+
+.content-header .title,
+.content-header .right {
+	background-color: black;
+}
+
+.content-header .title h1 {
 	color: white;
-	text-decoration: none;
-	
+	padding-left: 20%;
+	padding-top: 130px;
+	font-weight: 900;
+	font-size: 36px;
+}
+
+.content-header .title p {
+	color: white;
+	bottom: 0;
+	width: 100%;
+	padding-top: 150px;
+	text-align: right;
+}
+
+.content-header .img {
+	height: 400px;
+
+
+
+	background-size: auto 100%;
+}
+
+
+.content {
+	padding: 20px 20 50px 20px;
+
+	font-size: 14px;
+	line-height: 20px;
+}
+
+.content .content-title {
+	color: #e62b1e;
 }
 
 
