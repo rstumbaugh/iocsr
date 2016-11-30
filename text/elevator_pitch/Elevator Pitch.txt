@@ -1,1 +1,5 @@
-Not yet included. Will be added Wednesday, November 30.
+<div class="video-wrap">
+<video width="480" height="320" controls="controls">
+<source src="img/elevator.mp4" type="video/mp4">
+</video>
+</div>
