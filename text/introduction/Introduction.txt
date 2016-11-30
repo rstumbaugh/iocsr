@@ -1,0 +1,10 @@
+Hi, my name is Ryan Stumbaugh. I'm a sophomore Computer Science major here at the University of Maryland. For my Interpersonal and Oral Communications Skills Reflection, I decided to make a website. Instead of using a traditional website generator, I decided to program the site and all its content by hand, as I felt it would give me more freedom with the layout and design of the website. My original design was pretty boring and ended up looking like I used a website generator, so I decided if I was going to program my own site, I might as well get a little more creative with it. 
+<br><br>
+
+If the layout of my site looks familiar, that's because I mimicked the layout of the <a href="https://www.ted.com target="_blank">TED website</a>. TED Talks were certainly a huge theme in this course, so I felt it was only fitting if I incorporated this into my site. The only thing I borrowed directly from the TED site were the 2 largest header images and the background image on the home page (all other images are totally royalty-free and from a free stock photo website, <a href="https://www.pexels.com" target="_blank">pexels.com</a>). Other than that, I generally eyeballed the design, and I'm pretty happy with how it came out. All of the sections have titles that sound like TED Talks, which I thought added a bit more to the layout. For reference, here's what the TED website looked like when I started the design:
+<br><br>
+
+<img src="img/ted.jpg" style="height:350px; margin: auto;">
+<br><br>
+
+Each section has a link back to the home page, and the home page can also be reached by clicking on the logo in the top left corner. Thanks for reading and enjoy!

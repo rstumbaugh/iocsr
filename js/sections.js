@@ -25,6 +25,12 @@ var sections = {
 
 		growth: ["Personal Growth", "Personal Growth.txt"],
 
-		synthesis: ["Synthesis", "Synthesis.txt"]
+		synthesis: ["Synthesis", "Synthesis.txt"],
+
+		elevator_pitch: ["Elevator Pitch", "Elevator Pitch.txt"],
+
+		linkedin: ["LinkedIn Profile", "LinkedIn.txt"],
+
+		mock_interview: ["Mock Interview", "Mock Interview.txt"]
 	  	
 };
