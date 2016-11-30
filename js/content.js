@@ -2,8 +2,26 @@
 
 $(document).ready(function() {
 
+
 	var section = getUrlVars()["section"];
 
+	var $img = $(".content-header .img");
+	var path = "img/"+section+".jpg";
+
+	console.log($img.attr("background-image"));
+	$img.css("background-image",
+		"linear-gradient(left, rgba(0,0,0,0.9) 0%, rgba(0,0,0,0) 20%, rgba(0,0,0,0) 80%, rgba(0,0,0,0.9) 100%), url("+path+")"
+	);
+
+	$img.css("background-image",
+		"-webkit-linear-gradient(left, rgba(0,0,0,0.9) 0%, rgba(0,0,0,0) 20%, rgba(0,0,0,0) 80%, rgba(0,0,0,0.9) 100%), url("+path+")"
+	);
+
+	$img.css("background-image",
+		"-moz-linear-gradient(left, rgba(0,0,0,0.9) 0%, rgba(0,0,0,0) 20%, rgba(0,0,0,0) 80%, rgba(0,0,0,0.9) 100%), url("+path+")"
+	);
+
+	
 	$content = $(".content");
 
 	var contents = sections[section];
@@ -11,19 +29,19 @@ $(document).ready(function() {
 
 	for (var i=1; i < contents.length; i++) {
 
-		$header = $("<h1/>", {"class": "content-title"});
+		var $header = $("<h1/>", {"class": "content-title"});
 		$header.text(contents[i].replace("%20", " ").replace("_", "/").replace(".txt", ""));
 
 		$header.appendTo($content);
 
-		$div = $("<div/>", {"style": "width:100%"});
+		var $div = $("<div/>", {"style": "width:100%"});
 		$div.load("text/"+section+"/"+contents[i].replace(" ", "%20"));
 
 		$div.appendTo($content);
 
 		$("<br/>").appendTo($content);
 
-		$a = $("<a/>", {"href": "index.html", "style": "font-size:18px;padding-top:15px"})
+		var $a = $("<a/>", {"href": "index.html", "style": "font-size:18px;padding-top:15px"})
 		$a.text("Back to home page");
 
 		$a.appendTo($content);

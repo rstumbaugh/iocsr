@@ -165,6 +165,16 @@
 		<script src="js/bootstrap.min.js"></script>
 		<script src="js/sections.js"></script>
 		<script>
+			$(document).ready(function() {
+
+				$(".other-items .item-wrap .top").each( function(index) {
+					var path = "img/"+$(this).parent().attr("id")+".jpg";
+					console.log(path);
+					$(this).css("background-image", "url("+path+")");
+				});
+
+				
+			});
 			$(".item").on("click", function() {
 				window.location = "content.html?section=" + $(this).attr("id");
 			});
