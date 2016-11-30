@@ -1,0 +1,2 @@
+<h2>Summary</h2><br>
+This class session was spent completing the Everest assessment. I have covered this section in the Assessments section, which can be found <a href=”content.html?section=everest”>here</a>.<br>

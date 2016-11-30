@@ -38,6 +38,10 @@ body {
 	padding-right: 15px;
 }
 
+.navigation a:hover {
+	text-decoration: none;
+}
+
 .navigation .tagline {
 	font-weight: 200;
 	font-size: 24px;
@@ -150,7 +154,79 @@ body {
 }
 
 
+/* CONTENT PAGE */
+.content-header .navigation {
+	background-color: white;
+	color: black;
+}
+.content-header .row div {
+	height: 400px;
+}
 
+.content-header .title,
+.content-header .right {
+	background-color: black;
+}
+
+.content-header .title h1 {
+	color: white;
+	padding-left: 20%;
+	padding-top: 130px;
+	font-weight: 900;
+	font-size: 36px;
+}
+
+.content-header .title p {
+	color: white;
+	bottom: 0;
+	width: 100%;
+	padding-top: 150px;
+	text-align: right;
+}
+
+.content-header .img {
+	height: 400px;
+
+	background-image: url(../img/header1.jpg);
+	background-image: 
+		-webkit-linear-gradient(left, 
+			rgba(0,0,0,0.9) 0%, 
+			rgba(0,0,0,0) 20%,
+			rgba(0,0,0,0) 80%,
+			rgba(0,0,0,0.9) 100%
+			), url(../img/header1.jpg);
+
+	background-image: 
+		-moz-linear-gradient(left, 
+			rgba(0,0,0,0.9) 0%, 
+			rgba(0,0,0,0) 20%,
+			rgba(0,0,0,0) 80%,
+			rgba(0,0,0,0.9) 100%
+			), url(../img/header1.jpg);
+
+	background-image: 
+		linear-gradient(left, 
+			rgba(0,0,0,0.9) 0%, 
+			rgba(0,0,0,0) 20%,
+			rgba(0,0,0,0) 80%,
+			rgba(0,0,0,0.9) 100%
+			), url(../img/header1.jpg);
+
+
+	background-size: auto 100%;
+}
+
+
+.content {
+	padding: 20px 20 50px 20px;
+
+	font-size: 14px;
+	line-height: 20px;
+}
+
+.content .content-title {
+	color: #e62b1e;
+}
 
 
 
