@@ -1,8 +1,8 @@
-<div class="video-wrap">
+<!--<div class="video-wrap">
 <video width="480" height="320" controls="controls">
 <source src="img/interview.mp4" type="video/mp4">
 </video>
-</div>
+</div>-->
 
 
 <h3>Tell me about yourself.</h3>
